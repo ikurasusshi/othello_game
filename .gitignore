@@ -1,0 +1,32 @@
+# Pythonによって生成される不要ファイル
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code の設定ファイル（個人のエディタ設定）
+.vscode/
+
+# 仮想環境
+env/
+venv/
+ENV/
+.venv/
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数や秘密鍵など（例：.env）
+.env
+
+# Jupyterノートブックの一時ファイル
+*.ipynb_checkpoints
+
+# ログファイル
+*.log
+
+# pytest キャッシュ
+.pytest_cache/
+
+# mypy や pylint のキャッシュ
+.mypy_cache/
